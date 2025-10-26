@@ -1,0 +1,47 @@
+# Poker Bankroll Decision System Configuration
+
+# Simulation Parameters
+simulation:
+  n_simulations: 10000
+  time_horizons: [500, 1000, 2500, 5000, 10000] # hands
+  current_bankroll_bb: 5000 # Current bankroll in big blinds
+  risk_tolerance: 0.05 # 5% risk of ruin tolerance
+  drawdown_thresholds: [10, 20, 30, 50] # buyins of drawdown
+  kelly_fraction: 0.25 # Conservative Kelly betting (1/4 Kelly)
+
+# Hands per hour by game conditions
+hands_per_hour:
+  live_poker_base: 30
+  straddle_adjustment: -2
+  deep_stack_adjustment: -3
+  side_game_adjustment: -5
+
+# Stake mapping (for future use)
+stake_map:
+  "1-3":
+    bb: 3
+    typical_buyin: 300
+  "2-5":
+    bb: 5
+    typical_buyin: 500
+  "2-5-10":
+    bb: 5
+    typical_buyin: 800
+  "5-10":
+    bb: 10
+    typical_buyin: 1500
+  "10-20":
+    bb: 20
+    typical_buyin: 3000
+
+# Bankroll management rules
+bankroll:
+  min_buyins: 25 # Conservative minimum buyins
+  recommended_buyins: 40 # Recommended buyins for comfort
+  max_buyins: 100 # Upper limit for very conservative play
+
+# Risk thresholds
+risk_thresholds:
+  acceptable_ror: 0.05 # 5% risk of ruin
+  marginal_ror: 0.10 # 10% risk of ruin (marginal)
+  high_ror: 0.20 # 20% risk of ruin (dangerous)

@@ -1,0 +1,11 @@
+date,room,stake_text,buyins_usd,cashouts_usd,hours_played,straddle_exposure,side_bombpots_count,side_standup_minutes,side_bounty_flag,stack_depth_class,notes
+2025-09-01,Aria,1-3,300,420,5,none,2,10,False,N,First session at Aria
+2025-09-05,Bellagio,2-5,500,650,6,low,3,20,True,D,Good action, deep stacks
+2025-09-10,Commerce,2-5-10,800,900,7,medium,5,30,False,VD,Wild straddle game
+2025-09-15,Red Rock,5-10,1500,1200,4,high,1,5,False,S,Short session, tough lineup
+2025-09-20,Resorts World,10-20,3000,5000,8,mandatory,6,60,True,VD,Big win, bounty night
+2025-09-25,South Point,2-5,500,400,6,none,0,0,False,N,Lost a flip
+2025-09-30,Venetian,1-3,300,250,5,low,2,15,False,N,Slow game
+2025-10-03,Golden Nugget,2-5,600,800,7,medium,4,25,True,D,Loose table
+2025-10-08,Palms,5-10,1600,1400,6,high,2,10,False,D,Up and down
+2025-10-12,Flamingo,2-5-10,900,1100,8,mandatory,7,50,True,VD,Straddle madness
